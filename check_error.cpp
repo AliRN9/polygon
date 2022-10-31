@@ -59,9 +59,7 @@ ParseErrors check_error(int argc, char** argv, std::string& path, std::vector<do
         return ParseErrors::INVALID_POLYGON;
     }
     return ParseErrors::SUCCESS;
-    vx.push_back(vx[0]);
-    vy.push_back(vy[0]);
-
+    
 }
 
 std::string get_error_name(ParseErrors err_info)
