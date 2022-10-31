@@ -1,4 +1,7 @@
 cmake-build-debug
 .idea
 .git
+.vs
+out
+build
 *.zip
